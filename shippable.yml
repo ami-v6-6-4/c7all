@@ -45,7 +45,7 @@ build:
     ##- libmemcached --version #1.0.18
     - mongod --version #3.6.4
     ##- neo4j --version #3.3.5
-    - dpkg -s rabbitmq-server | grep Version #3.6.15    
+    - yum list rabbitmq-server | grep rabbitmq-serve #for c7all rabbitmq version #3.6.15    
     - psql --version #10.4
     - redis-server -v #4.0.9    
     - riak version #2.2.3
