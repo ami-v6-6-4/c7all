@@ -42,9 +42,9 @@ build:
     - ncat -vz localhost 5672    
     - cassandra -v #3.11.2
     - memcached -V #1.5.7
-    #- libmemcached --version #1.0.18
+    ##- libmemcached --version #1.0.18
     - mongod --version #3.6.4
-    - neo4j --version #3.3.5
+    ##- neo4j --version #3.3.5
     - dpkg -s rabbitmq-server | grep Version #3.6.15    
     - psql --version #10.4
     - redis-server -v #4.0.9    
